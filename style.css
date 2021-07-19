@@ -1,9 +1,32 @@
+.container{
+    margin-bottom: 100px;
+}
 .site-theme-bg{
     background-color: #fceae8;
 }
 
 .categories img{
-    width: 100%;
+    width: 100px;
+}
+
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cat1{
+    background-color: orange;
+    
+}
+
+.cat2{
+    background-color: orchid;
+}
+.cat3{
+    background-color: blue;
+}
+
+.card{
+    border-radius: 10px;
 }
 
 .site-button{
@@ -12,4 +35,18 @@
     padding: 9px 25px;
     border: none;
     background-image: linear-gradient(to bottom, #FF589B 0%, #ff4b92 100%);
+}
+.site-button:hover{
+    background-image: none;
+    background-color: #f81b73;
+}
+
+
+.card:hover{
+    background-color: black;
+    color: white !important;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
 }
